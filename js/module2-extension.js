@@ -1,8 +1,8 @@
-(function(Module2){
+(function(Module2) {
 
-    Module2.nouvelleMethode = function(){
+    Module2.publicMethod2 = function(){
         // fonctions à ajouter au module
-        console.log("Plouf !!");
+        console.log("Module2 - Extension - publicMethod2");
     };
 
 

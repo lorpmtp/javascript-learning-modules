@@ -1,8 +1,15 @@
+
+
+// Module 1
+
 console.log(Module1.publicMethod());
 
-console.log(Module1.Extension.nouvelleMethode());
+//Module 1 - Sous Module
+console.log(Module1.SousModule.publicMethod());
 
-console.log(Module2.publicMethod())
+//Module 1 - Extention
+// console.log(Module1.Extension.nouvelleMethode());
 
-console.log(Module2.nouvelleMethode())
+console.log(Module2.publicMethod1());
+console.log(Module2.publicMethod2());
 

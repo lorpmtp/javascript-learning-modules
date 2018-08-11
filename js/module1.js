@@ -5,6 +5,7 @@
 //"return" and hide the other proprieties.
 
 var Module1 = (function() {
+
   var privateVariable = 'privateVariable';
 
   function privateMethod() {
@@ -16,7 +17,7 @@ var Module1 = (function() {
     publicMethod: function() {
       //return privateMethod();
       console.log("Contexte Module 1", this) // Retourne le contexte a l'intérieur du Return
-      console.log("Module 1 Public Method");
+      console.log("Module 1 - Public Method");
     }
   };
 }());
