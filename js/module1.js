@@ -15,8 +15,8 @@ var Module1 = (function() {
     publicVariable: 'publicValue',
     publicMethod: function() {
       //return privateMethod();
-      console.log("context", this) // Retourne le contexte a l'intérieur du Return
-      return privateMethod() * 2;
+      console.log("Contexte Module 1", this) // Retourne le contexte a l'intérieur du Return
+      console.log("Module 1 Public Method");
     }
   };
 }());

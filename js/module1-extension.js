@@ -1,5 +1,12 @@
-var Module1.Extension = (function(Module1) {
+var Module1 = Module1 || {};
 
-	
+Module1.Extension = (function(self){
 
-}(Module1.Extension = Module1.Extension || {}));
+    self.nouvelleMethode = function(){
+        // fonctions à ajouter au module
+        return "Extention Module 1"
+    };
+
+
+    return self;
+})(Module1.Extension || {});
